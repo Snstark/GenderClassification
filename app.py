@@ -68,8 +68,8 @@ if nav == 'Prediction':
     if Cls == "ALL":
         if st.button('Predict'):
             st.header("RandomForestClassifiers")
-            st.title('Based on Features from  the Gender is ' + (RFC.predict(x)))
+            st.title('Based on Features from  the Gender is '  (RFC.predict(x)))
             st.header("LogisticRegression")
-            st.title('Based on Features Gender is ' + (LogReg.predict(x)))
+            st.title('Based on Features Gender is '  (LogReg.predict(x)))
             st.header("DecisionTreeClassifier")
-            st.title('Based on Features Gender is ' + (DT.predict(x)))
+            st.title('Based on Features Gender is '  (DT.predict(x)))
